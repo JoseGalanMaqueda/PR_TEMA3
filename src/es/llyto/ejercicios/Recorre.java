@@ -9,7 +9,7 @@ public class Recorre
 		
 		for(int i=0;i<cadena.length();i++) 
 		{
-			System.out.println(cadena.charAt(i));
+			System.out.println(cadena.charAt(i)); // Esto mostraria letra a letra nuestra cadena
 		}
 
 	}
