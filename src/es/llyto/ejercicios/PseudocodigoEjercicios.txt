@@ -1,0 +1,108 @@
+1.- nombres
+
+	PROGRAMA nombres
+	VARIABLES
+		CADENA nombre1, nombre2, nombre3, nombre4, nombre5
+	INICIO
+		ESCRIBIR "Escribe nombre: "
+		LEER nombre1
+  		ESCRIBIR "Escribe nombre: "
+  		LEER nombre2
+  		ESCRIBIR "Escribe nombre: "
+  		LEER nombre3
+  		ESCRIBIR "Escribe nombre: "
+  		LEER nombre3
+  		ESCRIBIR "Escribe nombre: "
+  		LEER nombre5
+  
+  		ESCRIBIR "El primer nombre es: " + nombre1
+  		ESCRIBIR "El segundo nombre es: " + nombre2
+  		ESCRIBIR "El tercero nombre es: " + nombre3
+  		ESCRIBIR "El cuarto nombre es: " + nombre4
+  		ESCRIBIR "El quinto nombre es: " + nombre5
+	FIN
+	
+2.- Recorre
+
+ 	PROGRAMA recorre
+ 	VARIABLES
+ 		CADENA cadena= "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+ 	INICIO
+ 		PARA i=0 HASTA i<=LONGITUD(cadena) INCREMENTO 1
+ 			ESCRIBIR POSICION(cadena,i)
+ 		FIN PARA
+ 	FIN
+ 	
+3.- Compara
+
+
+	PROGRAMA compara
+	VARIABLES
+		CADENA cadena1, cadena2
+	INICIO
+ 		ESCRIBIR "Dame cadena 1: "
+  		LEER cadena1
+  		ESCRIBIR "Dame cadena 2: "
+  		LEER cadena2
+  
+  		SI(LONGITUD(cadena1) == LONGITUD(cadena2))
+  			ESCRIBIR "Tienen la misma longitud"
+  		SINO
+  			SI(LONGITUD(cadena1) < LONGITUD(cadena2))
+  				ESCRIBIR "Cadena 2 es mas larga"
+  			SINO
+  				ESCRIBIR "Cadena 1 es mas larga"
+  		FINSI
+  	FIN
+
+4.- Concatena 
+
+	PROGRAMA concatena
+	VARIABLES
+  		CADENA cadena1, cadena2, cadena3 = "Hola"
+ 	INICIO
+  		ESCRIBIR "Introduce una cadena1: "
+  		LEER cadena1
+  		ESCRIBIR "Introduce cadena2: "
+  		LEER cadena2
+  		resultado = cadena1 + " " + cadena2
+  		ESCRIBIR resultado
+ 	FIN
+ 	
+5.- MayusculasMinusculas
+
+	PROGRAMA mayusculasMinusculas
+	VARIABLES
+		CADENA cadena
+	INICIO
+  		ESCRIBIR "Introduce una cadena"
+  		LEER cadena
+  		ESCRIBIR MINUSCULAS(cadena)
+  		ESCRIRBIR MAYUSCULAS(cadena)
+ 	FIN
+ 	
+6.- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
