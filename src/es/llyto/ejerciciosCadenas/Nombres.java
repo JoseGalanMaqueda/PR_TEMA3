@@ -1,4 +1,4 @@
-package es.llyto.ejercicios;
+package es.llyto.ejerciciosCadenas;
 import java.util.Scanner;
 
 public class Nombres

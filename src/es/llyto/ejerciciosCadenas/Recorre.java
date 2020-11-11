@@ -1,4 +1,4 @@
-package es.llyto.ejercicios;
+package es.llyto.ejerciciosCadenas;
 
 public class Recorre
 {

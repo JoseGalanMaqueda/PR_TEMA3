@@ -81,8 +81,37 @@
   		ESCRIRBIR MAYUSCULAS(cadena)
  	FIN
  	
-6.- 
+6.- Igualdad
 
+	PROGRAMA igualdad
+	VARIABLES
+		CADENA cadena1, cadena2
+	INICIO
+		ESCRIRBIR "Introduce cadena1: "
+		LEER cadena1
+		ESCRIRBIR "Introduce cadena2: "
+		LEER cadena2
+		
+		SI cadena1 = cadena2 ENTONCES
+			ESCRIBIR "Las cadenas son iguales"
+		SINO 
+			ESCRIRBIR "Las cadenas no son iguales"
+		FINSI
+	FIN
+	
+7. Longitud
+
+	PROGRAMA longitud
+	VARIABLES
+		CADENA cadena
+	INICIO
+	FIN
+	
+	FUNCION fun_longitud(CADENA cadena) ENTERO
+	VARIABLES
+	INICIO
+		DEVOLVER LONGITUD(cadena),
+	FIN
 
 
 
